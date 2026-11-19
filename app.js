@@ -1,6 +1,5 @@
 import express from "express";
-
-const PORT = 5000;
+import { PORT } from "./config/env.js";
 const app = express();
 
 app.get('/', (req, res) => {
